@@ -6,9 +6,13 @@ import java.util.Scanner;
 public class N2571 {
     private static void solution(int[] arr) {
         Arrays.sort(arr);
+
+        StringBuilder sb = new StringBuilder();
         for(int i : arr) {
-            System.out.println(i);
+            sb.append(i).append("\n");
         }
+
+        System.out.println(sb);
     }
 
     public static void main(String[] args) {
