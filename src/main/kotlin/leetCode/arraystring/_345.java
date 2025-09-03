@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.arraystring;
 
 import java.util.*;
 import java.util.stream.Collectors;

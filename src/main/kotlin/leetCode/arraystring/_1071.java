@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.arraystring;
 
 public class _1071 {
     public static void main(String[] args) {
