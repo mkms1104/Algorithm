@@ -1,4 +1,4 @@
-package leetCode.bfs;
+package leetCode.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

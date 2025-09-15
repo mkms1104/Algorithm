@@ -1,4 +1,4 @@
-package leetCode.bfs;
+package leetCode.dfs;
 
 public class _104 {
     public static class TreeNode {
