@@ -1,20 +1,9 @@
 package leetCode.bfs;
 
+import leetCode.TreeNode;
 import leetCode.dfs._104;
 
 public class _1372 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

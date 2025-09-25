@@ -1,25 +1,15 @@
 package leetCode.dfs;
 
+import leetCode.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class _872 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public static void main(String[] args) {
-        TreeNode root1 = new _872.TreeNode(1);
-        TreeNode root2 = new _872.TreeNode(1);
+        TreeNode root1 = new TreeNode(1);
+        TreeNode root2 = new TreeNode(1);
 //        root.left = new _872.TreeNode(5);
 //        root.left.left = new _872.TreeNode(6);
 //        root.left.right = new _872.TreeNode(2);
